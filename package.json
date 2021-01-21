@@ -1,6 +1,6 @@
 {
   "name": "reed-solomon-datamatrix",
-  "version": "1.3.0",
+  "version": "1.4.1",
   "description": "Reed Solomon decoder (and encoder) for Data Matrix Codes - JavaScript implementation",
   "main": "main.js",
   "directories": {
@@ -28,5 +28,8 @@
   "bugs": {
     "url": "https://github.com/stokes91/reed-solomon-datamatrix/issues"
   },
-  "homepage": "https://github.com/stokes91/reed-solomon-datamatrix#readme"
+  "homepage": "https://github.com/stokes91/reed-solomon-datamatrix#readme",
+  "dependencies": {
+    "rs-finite-field": "^2.0.0"
+  }
 }

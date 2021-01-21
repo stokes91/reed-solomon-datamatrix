@@ -14,10 +14,7 @@
    limitations under the License.
 */
 
-const ReedSolomonEncoder = require('./lib/ReedSolomonEncoder');
-const ReedSolomonDecoder = require('./lib/ReedSolomonDecoder');
 
-module.exports = {
-  ReedSolomonEncoder,
-  ReedSolomonDecoder
-};
+const FiniteField = require('rs-finite-field');
+
+module.exports = FiniteField(0x100, 0x12D, 2);
